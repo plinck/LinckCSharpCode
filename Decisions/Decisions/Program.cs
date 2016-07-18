@@ -21,21 +21,21 @@ namespace Decisions
 
                 if (userValue == "1")
                 {
-                    message = "You won a new car";
+                    message = "Car";
                 }
                 else if (userValue == "2")
                 {
-                    message = "You won a new boat";
+                    message = "Boat";
                 }
                 else if (userValue == "3")
                 {
-                    message = "You suck";
+                    message = "Sucky Egg";
                 }
                 else
                 {
-                    message = "You must pick 1, 2, 3, or 4";
+                    message = "Nothing";
                 }
-                Console.WriteLine(message);
+                Console.WriteLine("You Entered {0}, so you won a {1}", userValue, message);
             }
             while (userValue != "4");
         }
