@@ -1,0 +1,1 @@
+This is just a text file.  I addded the folder under the GIT repos and now want to commit to GIT server using github 
