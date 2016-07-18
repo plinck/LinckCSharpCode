@@ -23,14 +23,13 @@ namespace HelloWPFApp
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
             if (radioButton1.IsChecked == true)
             {
-                MessageBox.Show("Hello");
+                MessageBox.Show("Hello GitHub Repository LinckCSharpLibrary");
             }
             else
             {
