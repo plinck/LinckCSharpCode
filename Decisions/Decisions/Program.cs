@@ -38,6 +38,9 @@ namespace Decisions
                 Console.WriteLine("You Entered {0}, so you won a {1}", userValue, message);
             }
             while (userValue != "4");
+
+            while (userValue == "1")
+                userValue = "2";
         }
     }
 }
