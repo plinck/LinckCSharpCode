@@ -18,6 +18,8 @@ namespace Arrays
 
             char[] charArray = myBiggie.ToCharArray();
 
+            // I edited this file on my MAC using Visual Studio Editor - Cool
+            // Check out if line feeds etc worked with GIT
             myNumbers[0] = 4;
             myNumbers[1] = 8;
             myNumbers[2] = 15;
