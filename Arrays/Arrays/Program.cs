@@ -18,13 +18,11 @@ namespace Arrays
 
             char[] charArray = myBiggie.ToCharArray();
 
-
             myNumbers[0] = 4;
             myNumbers[1] = 8;
             myNumbers[2] = 15;
             myNumbers[3] = 16;
             myNumbers[4] = 23;
-
 
             Array.Reverse(charArray);
             foreach (char myChar in charArray)
