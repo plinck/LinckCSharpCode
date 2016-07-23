@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="ROBOTS" content="NOYDIR" />
+    <meta name="ROBOTS" content="NOODP" />
+    <meta name="p:domain_verify" content="f7216b02e68cc8bf061bb27f59b0dd0f" >
+    <meta name="google-site-verification" content="C0SboseTtSt6vFpE98Yq1Ur2IVGgnaB9bRkIqHGDNFw" />
+    <meta property="twitter:account_id" content="1510104590" />
+
+    <meta property="fb:admins" content="49102455,584780102,748220376,1134223497,100000369144587,100000475753312"/>
+    
+
+    
+    
+    <meta name="Googlebot-News" content="NOINDEX, NOFOLLOW" />
+    
+
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:site_name" content="IRONMAN.com"/>
+    <meta property="og:description" content=""/>
+
+    <title>IRONMAN 70.3 Augusta Results - IRONMAN Official Site | IRONMAN triathlon 140.6 & 70.3</title>
+
+    <link rel="canonical" href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx" />
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="http://www.ironman.com/media/favicon.png" />
+    <link rel="shortcut icon" href="http://www.ironman.com/media/favicon.ico" />
+
+    
+<link rel="stylesheet" type="text/css" href="http://www.ironman.com/includes/cssbin/mini/ironman.0.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/includes/cssbin/ironman.min.css?v=7" media="all" />
+
+  	
+
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="http://www.ironman.com/includes/cssbin/ie8.css" media="all" />
+	<![endif]-->
+
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="http://www.ironman.com/includes/cssbin/ie7.css" media="all" />
+	<![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    
+
+<script type="text/javascript" src="http://www.ironman.com/includes/jsbin/mini/ironman.2225931635496.js"></script>
+    
+
+
+
+
+
+    <!-- need this for all of the handlers used by the new IronFan section -->
+    <script type="text/javascript">
+        var raceStartTime = "";
+        var raceStartTimeZone = "";
+        var raceStartTimeZoneAbbreviated = "";
+        var timezoneOffset = "";
+        var subEventId = "";
+        var domainServicesSecure = "https://services.ironman.com";
+        var domainServicesCached = "http://services-cdn.ironman.com";
+        
+
+        if (LiveMap === undefined) {
+            var LiveMap = {};
+        }
+        if (LiveMap.vars === undefined) {
+            LiveMap.vars = {};
+        }
+        LiveMap.vars.debugHandlebars = false;
+    </script>
+
+    <script type="text/javascript">
+        var shareURL = "http%3a%2f%2fwww.ironman.com%2ftriathlon%2fevents%2famericas%2fironman-70.3%2faugusta%2fresults.aspx";
+        var shareTitle = "%7b0%7d+Results";
+        var ord = Math.random() * 10000000000000000;
+        ord = Math.round(ord);
+        var dst = "True";
+        var availableLanguages = [];
+        var pageId = "30e8b17c29b94ec38cd798f0619a0622";
+        var currentLanguage = "en";
+        var directories = document.location.pathname.split("/");
+        if (directories.length > 1) {
+            if ((directories[1].length === 2) || ((directories[1].length === 5) && (directories[1].charAt(2) === "-"))) {
+                currentLanguage = directories[1];
+            }
+        }
+        //console.log("dir- " + directories);
+        //console.log("lang- " + currentLanguage);
+        var trackerUrl = "";
+    </script>
+
+    <script type="text/javascript">
+        if (trackerUrl !== 'undefined' && trackerUrl.length > 0) {
+            $(window).load(function() {
+                initAjaxPopUp(trackerUrl);
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        var ga_accountID, ga_domain;
+        var host = location.host;
+
+        if (host == "beta.ironman.com" || host == "ironman.com" || host == "www.ironman.com" || host == "ap.ironman.com" || host == "eu.ironman.com" || host == "m.ironman.com" || host == "m.ap.ironman.com" || host == "m.eu.ironman.com") {
+            ga_accountID = 'UA-213900-2';
+            ga_domain = 'ironman.com';
+        } else {
+            ga_accountID = 'UA-34708665-1';
+            ga_domain = 'digitaria.com';
+        }
+
+        // for testing only, remove from production
+        //if (typeof console.log != "undefined") {
+        //console.log("account id= " + ga_accountID);
+        //}
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', ga_accountID]);
+        _gaq.push(['_setDomainName', ga_domain]);
+
+        // Updated custom variable tracking for Double Click data fields
+        _gaq.push(['_setCustomVar', 1, 'scTemplate', 'Event Results Sub Page', 3]);
+_gaq.push(['_setCustomVar', 2, 'scEvent', 'augusta70.3', 3]);
+_gaq.push(['_setCustomVar', 3, 'scTag', "Augusta703, Cityscape, Historic, Relay Option, Single-Transition", 3]);
+_gaq.push(['_setCustomVar', 4, 'Article Byline', '', 3]);
+
+
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+    <!-- Start of Neustar Real User Measurements code -->
+    <script type="text/javascript">
+        ns_rum = {};
+        var t_pagestart = new Date().getTime(), t_pageend;
+        ns_rum.init = function () {
+            t_pageend = new Date().getTime();
+            var s = document.createElement ('script'); s.id = 'rum';
+            s.type = 'text/javascript'; s.src = 'https://d2lo2tipcl3aii.cloudfront.net/C620CFB87B594673BEA261FF02820DF9/neustar.beacon.js';
+            document.getElementsByTagName('head')[0].appendChild(s);
+        }
+        window.addEventListener ? window.addEventListener('load', ns_rum.init, false) : window.attachEvent ? window.attachEvent('onload', ns_rum.init) : false;
+
+        ns_rum.errors = [];
+        ns_rum.ogErrorHandler = window.onerror;
+        window.onerror = function rumErrorHandler(msg, url, line){
+            ns_rum.errors.push({'url': url, 'line': line, 'msg': msg});
+            if(ns_rum.ogErrorHandler){ return ns_rum.ogErrorHandler(msg, url, line); }
+            return false;
+        }
+    </script>
+    <!-- End of Neustar Real User Measurements code -->
+
+    
+        <!-- Start: Double Click Ad Code -->
+        <script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function () {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                    '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+
+        <script type='text/javascript'>
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/4606835/IM_728x90_Americas_Augusta', [728, 90], 'div-gpt-ad-1567795967').addService(googletag.pubads());
+googletag.defineSlot('/4606835/IM_300x90_Americas_Augusta', [300, 90], 'div-gpt-ad-1567795968').addService(googletag.pubads());
+googletag.defineSlot('/4606835/IM_300x250_Americas_Augusta', [300, 250], 'div-gpt-ad-1223531042').addService(googletag.pubads());
+googletag.defineSlot('/4606835/IM_300x100_Americas_Augusta', [300, 100], 'div-gpt-ad-1574886572').addService(googletag.pubads());
+
+                googletag.pubads().collapseEmptyDivs();
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().setTargeting("url", "http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx");
+googletag.pubads().setTargeting("scTemplate", "Event Results Sub Page");
+googletag.pubads().setTargeting("adUnit", "Americas_Augusta");
+googletag.pubads().setTargeting("scEvent", "augusta70.3");
+googletag.pubads().setTargeting("scTag", ["Augusta703","Cityscape","Historic","Relay Option","Single-Transition"]);
+
+                googletag.enableServices();
+            });
+        </script>
+        <!-- End: Double Click Ad Code -->
+    
+    
+    <!--
+      IronFan - EasyXDM
+      =================
+    -->
+    
+    <!-- This should be changed so that it points to the minified version before use in production.-->
+    <script type="text/javascript" src="/Includes/JsBin/easyXDM-2.4.19.3/easyXDM.min.js"></script>
+    <script type="text/javascript">
+        // Update to point to your copy
+        easyXDM.DomHelper.requiresJSON("/includes/jsbin/easyXDM-2.4.19.3/json2.js");
+    </script>
+</head>
+
+<body class="layout3 eventLanding eventSubPage results">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KK6278"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KK6278');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+    <!-- Begin: eventCoverage -->
+    <div class="eventCoverage">
+        <div class="eventCoverageWrapper clear">
+            <h3>Event Coverage</h3>
+            <ul class="eventCoverageLocation">
+                <li><a href="http://www.ironman.com/triathlon/coverage/detail.aspx?race=canada70.3&y=2016">Canada</a><div class="expand">Subaru IRONMAN 70.3 Canada</div></li><li><a href="http://www.ironman.com/triathlon/coverage/detail.aspx?race=calgary70.3&y=2016">Calgary</a><div class="expand"> IRONMAN 70.3 Calgary</div></li><li><a href="http://www.ironman.com/triathlon/coverage/detail.aspx?race=canada&y=2016">Canada</a><div class="expand">Subaru IRONMAN Canada</div></li><li><a href="http://www.ironman.com/triathlon/coverage/detail.aspx?race=switzerland&y=2016">Switzerland</a><div class="expand"> IRONMAN Switzerland</div></li><li><a href="http://www.ironman.com/triathlon/coverage/detail.aspx?race=lakeplacid&y=2016">Lake Placid</a><div class="expand"> IRONMAN Lake Placid</div></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End: eventCoverage -->
+
+
+<!-- Start: Header -->
+<div id="headerWrapper">
+    <header class="masthead clear">
+
+        <!-- Site Logo -->
+        <div id="siteLogo">
+            <a href="http://www.ironman.com/" title="IRONMAN Official Site | IRONMAN triathlon 140.6 & 70.3">IRONMAN Official Site | IRONMAN triathlon 140.6 & 70.3</a>
+        </div>
+        
+
+        <!-- Header Search Form -->
+        <form id="siteSearchForm" name="searchForm" method="get" action="http://www.ironman.com/search/site.aspx">
+            <label for="siteSearch">Search</label>
+			<input type="text" name="q" onfocus="this.value=''" value="Search..." id="siteSearch">
+			<button id="siteSearchBtn" type="submit">Submit</button>
+        </form>
+
+        <nav class="siteNav">
+			<ul>
+
+<li class=" first withDropdown"><a href="http://www.ironman.com/events/triathlon-races.aspx">Races</a>
+<div class="subNavWrapper">    <div class="subNavWrapperInner"><a href="http://www.ironman.com/triathlon/news/ironman-world-championship.aspx" title=""><img class="colImage" src="http://www.ironman.com/~/media/a422a9a52a1c40a8bdeeb4f5c6836765/races%20navimg%202.jpg?w=342&h=194" width="342" height="194"  title="" alt="" /></a>
+
+<div class="col">
+    
+	<a href="http://www.ironman.com/events/triathlon-races.aspx" title="All Races" class="colLabel">All Races</a>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/coverage/live.aspx" class="liveHeaderCss first">Live Now!</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?d=ironman">IRONMAN</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?d=ironman+70.3">IRONMAN 70.3</a></li><li><a href="http://www.ironman.com/triathlon/events/championships.aspx">Championships</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?d=shortcourse">Short Course Tri</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?d=running">Running</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?d=cycling">Cycling</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?d=ironkids">IRONKIDS</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?d=multisports" class="last">MultiSport Tri</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Locations</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/events/triathlon-races.aspx?l=north+america" class="first">North America</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?l=south+america">South America</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?l=europe">Europe</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?l=middle+east">Middle East</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?l=africa">Africa</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?l=asia">Asia</a></li><li><a href="http://www.ironman.com/events/triathlon-races.aspx?l=oceania" class="last">Oceania</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Programs</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/organizations/triclubs.aspx" class="first">TriClub Program</a></li><li><a href="http://www.ironman.com/triathlon/events/vip-experience.aspx">VIP Experience</a></li><li><a href="http://www.ironman.com/triathlon/events/charity-entries.aspx">Charity Partner Entries</a></li><li><a href="http://www.ironman.com/triathlon/organizations/all-world-athlete.aspx">All World Athlete Program</a></li><li><a href="http://www.ironman.com/triathlon/organizations/ironman-xc.aspx">Executive Challenge</a></li><li><a href="http://www.ironman.com/triathlon/events/americas/ironman/world-championship/register/ironman-legacy-program.aspx">Kona Legacy Program</a></li><li><a href="http://www.ironman.com/triathlon/organizations/north-american-tour-series.aspx">North American Tour Series</a></li><li><a href="http://www.ironman.com/full-refund-plan.aspx">Refund Plan</a></li><li><a href="http://www.ironman.com/triathlon/events/north-american-ironman-transfer-program.aspx" class="last">Transfer Program</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Initiatives</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/organizations/women-for-tri.aspx" class="first">Women for Tri</a></li><li><a href="http://www.ironmanfoundation.org" target="_blank">Foundation</a></li><li><a href="http://www.ironman.com/triathlon/events/swimsmart-initiative.aspx">SwimSmart</a></li><li><a href="http://www.ironman.com/triathlon/organizations/anti-doping.aspx" class="last">Anti-Doping</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Resources</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/pages/resources/rules-and-regulations.aspx" class="first">Rules</a></li><li><a href="http://www.ironman.com/triathlon/pages/resources/physically-challenged.aspx">PC Open Division</a></li><li><a href="http://www.ironman.com/triathlon/pages/resources/handcycle.aspx">Handcycle Division</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+    </div></div>
+</li>
+
+<li class=" withDropdown"><a href="http://www.ironman.com/triathlon/coverage/past.aspx">Results</a>
+<div class="subNavWrapper">    <div class="subNavWrapperInner"><a href="http://www.ironman.com/" title=""><img class="colImage" src="http://www.ironman.com/~/media/7a3fb5a528604aed9e4f8e9fbee67a6b/results%20navimg%201.jpg?w=342&h=194" width="342" height="194"  title="" alt="" /></a>
+
+<div class="col">
+    
+	<p class="colLabel">Age Group Athletes</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/coverage/past.aspx" class="first">Recent Results</a></li><li><a href="http://www.ironman.com/triathlon/organizations/all-world-athlete/agr.aspx">Rankings</a></li><li><a href="http://www.ironman.com/triathlon/organizations/all-world-athlete.aspx">All World Athlete Program</a></li><li><a href="http://www.ironman.com/triathlon/triathlon-rankings/triclub-ranking-overview.aspx" class="last">Tri Club Rankings</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Professional Athletes</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon-news/race-news.aspx" class="first">Race News</a></li><li><a href="http://www.ironman.com/triathlon/triathlon-rankings/points-system.aspx">Rankings</a></li><li><a href="http://www.ironman.com/triathlon/organizations/pro-membership.aspx" class="last">Membership</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Coverage</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/coverage/live.aspx" class="liveHeaderCss first">Live Now!</a></li><li><a href="http://www.ironman.com/triathlon/coverage/past.aspx">Past Coverage</a></li><li><a href="http://www.ironman.com/triathlon-news/race-news.aspx" class="last">Race News</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+    </div></div>
+</li>
+
+<li class="mlife withDropdown"><a href="http://www.ironman.com/triathlon-news/ironman-life.aspx">Life</a>
+<div class="subNavWrapper">    <div class="subNavWrapperInner"><a href="http://home.trainingpeaks.com/products/trainingplans/affiliates/ironman/official-ironman-training-plans?utm_source=ironman&utm_medium=banner&utm_content=dropdown&utm_campaign=ironman2016" title=""><img class="colImage" src="http://www.ironman.com/~/media/bfe2dc93cc904ef48fdf551ef82224f8/tp%20ironman%20trainingplans%20banner%20final%20red.jpeg?w=342&h=285" width="342" height="285"  title="" alt="" /></a>
+
+<div class="col">
+    
+	<a href="http://www.ironman.com/triathlon-news/ironman-life.aspx" title="News and Features" class="colLabel">News and Features</a>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon-news/headlines.aspx" class="first">News</a></li><li><a href="http://www.ironman.com/triathlon-news/race-news.aspx">Race News</a></li><li><a href="http://www.ironman.com/triathlon-news/profiles.aspx">Profiles</a></li><li><a href="http://www.ironman.com/triathlon-news/inspiration.aspx" class="last">Inspiration</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<a href="http://www.ironman.com/triathlon/pages/getting-started.aspx" title="Get Started" class="colLabel">Get Started</a>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon-news/ironman-101.aspx" class="first">IRONMAN 101</a></li><li><a href="http://www.ironman.com/triathlon/organizations/triclubs.aspx">TriClubs</a></li><li><a href="http://www.ironman.com/triathlon/pages/resources/rules-and-regulations.aspx" class="last">Rules</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<a href="http://www.ironman.com/triathlon-news/training.aspx" title="Reach Your Goals" class="colLabel">Reach Your Goals</a>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/ironman-u/startnow.aspx" class="first">Find a Coach</a></li><li><a href="http://www.ironman.com/triathlon-news/training.aspx">Training</a></li><li><a href="http://www.ironman.com/triathlon-news/nutrition.aspx">Nutrition</a></li><li><a href="http://home.trainingpeaks.com/products/trainingplans/affiliates/ironman/official-ironman-training-plans" target="_blank" class="last">Training Plans</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<a href="http://www.ironman.com/triathlon/social-community/from-the-fans.aspx#/axzz3yU3ZBl5o" title="Social Community" class="colLabel">Social Community</a>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/social-community/from-the-fans.aspx" class="first">From the Fans</a></li><li><a href="http://www.ironman.com/triathlon/social-community/facebook.aspx">Facebook</a></li><li><a href="http://www.ironman.com/triathlon/social-community/twitter.aspx">Twitter</a></li><li><a href="http://www.ironman.com/triathlon/social-community/instagram.aspx">Instagram</a></li><li><a href="http://www.ironman.com/triathlon/social-community/pinterest.aspx" class="last">Pinterest</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<a href="http://www.ironman.com/triathlon/history.aspx" title="History" class="colLabel">History</a>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironman.com/triathlon/history.aspx" class="first">Our History</a></li><li><a href="http://www.ironman.com/triathlon/history/hall-of-fame.aspx" class="last">Hall of Fame</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+    </div></div>
+</li>
+
+<li class=" withDropdown"><a href="https://university.ironman.com/?utm_source=ironman.com&utm_medium=navigation&utm_campaign=imu" target="_blank">IRONMAN U</a>
+<div class="subNavWrapper">    <div class="subNavWrapperInner"><img class="colImage" src="http://www.ironman.com/~/media/a5cb50535c8947ed9fa04b4f23ebaa3e/imunavigation%20graphic.jpg?w=342&h=194" width="342" height="194"  title="" alt="" />
+
+<div class="col">
+    
+	<p class="colLabel">Coaches</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="https://university.ironman.com/?utm_source=ironman.com&utm_medium=navigation&utm_campaign=about" target="_blank" class="first">About</a></li><li><a href="https://university.ironman.com/content/coaching-certification-course/?utm_source=ironman.com&utm_medium=navigation&utm_campaign=coaching+certification" target="_blank">Coaching Certification</a></li><li><a href="https://university.ironman.com/content/ironman-coaches-association?utm_source=ironman.com&utm_medium=navigation&utm_campaign=coaches+association" target="_blank" class="last">Coaches Association</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Athletes</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="https://university.ironman.com/content/train-smart/?utm_source=ironman.com&utm_medium=navigation&utm_campaign=athlete+education" target="_blank" class="first">Athlete Education</a></li><li><a href="http://www.ironman.com/triathlon/ironman-u/startnow" class="last">Find a Coach</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+    </div></div>
+</li>
+
+<li><a href="http://www.ironman.com/partners.aspx">Partners</a>
+
+</li>
+
+<li class=" last text-red withDropdown"><a href="http://www.ironmanstore.com?utm_source=ironman+site&utm_medium=nav+bar&utm_campaign=shop+button" target="_blank">Shop</a>
+<div class="subNavWrapper">    <div class="subNavWrapperInner"><a href="https://www.ironmanstore.com/country-kits.html?&utm_source=ironman+site&utm_medium=nav+image&utm_campaign=2016+country+kits" title=""><img class="colImage" src="http://www.ironman.com/~/media/1455a2611c1d40b2956a707a5e73591a/country%20kits%20342%20194.jpg?w=342&h=194" width="342" height="194"  title="" alt="" /></a>
+
+<div class="col">
+    
+	<p class="colLabel">Official IRONMAN Gear</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironmanstore.com/event-discount.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=event" target="_blank" class="first">Event Gear</a></li><li><a href="http://www.ironmanstore.com/finisher.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=finisher">Finisher</a></li><li><a href="http://www.ironmanstore.com/training-essentials.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=training">Training</a></li><li><a href="http://www.ironmanstore.com/kona-dvds.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=dvds">DVDs</a></li><li><a href="http://www.ironmanstore.com/all-world-athlete.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=all+world+athlete+2016" class="last">All World Athlete</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+
+
+<div class="col">
+    
+	<p class="colLabel">Free Shipping on Orders Over $100</p>
+	<!-- Begin: sub nav links -->
+	<ul>
+		<li><a href="http://www.ironmanstore.com/trucker-hats.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=hats+visors" class="first">Hats and Visors</a></li><li><a href="http://www.ironmanstore.com/ironman-bags-and-backpacks.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=bags">Bags</a></li><li><a href="http://www.ironmanstore.com/special-offer.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=sale">Sale</a></li><li><a href="http://www.ironmanstore.com/vip-packages.html?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=vip">VIP Packages</a></li><li><a href="http://www.ironmanstore.com/borderfree/selector/?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=border+free" class="last">International Athletes - Click Here</a></li>
+	</ul>
+	<!-- End: sub nav links -->
+</div>
+    </div></div>
+</li></ul>
+        </nav>
+
+        <div id="utilityMenu">
+            <div id="utilityMenuInner">
+                <div class="controls">
+                    <div id="utilityHandle" class="clear">
+                        <a class="accountLink login" href="/triathlon/forms/single-sign-on.aspx?return_to=http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3&bidid=93&detail=1">Login</a>
+                        <a class="accountLink register" href="/triathlon/forms/single-sign-up.aspx">Register</a>
+                        <a class="accountLink my-account" href="/triathlon/account/account-settings.aspx">My Account</a>
+                        <a class="accountLink logout" href="/triathlon/forms/sign-out.aspx?return_to=http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3&bidid=93&detail=1">Log Out</a>
+                        <a class="regionLink" href="#">Region<span class="icon">ï”</span></a>
+                        <div class="regionDropdown">
+                            <ul>
+                                <li class="category"><a href="http://www.ironman.com" class="active">North America</a></li>
+
+<li class="category"><a href="http://eu.ironman.com">Europe/Africa</a></li>
+
+<li class="category"><a href="http://ap.ironman.com">Asia-Pacific</a></li>
+
+<li class="category"><a href=""></a></li>
+
+<li class="category"><a href=""></a></li>
+
+<li class="category"><a href=""></a></li>
+
+<li class="category"><a href=""></a></li>
+
+<li class="category"><a href=""></a></li>
+
+<li class="category"><a href=""></a></li>
+
+<li class="category"><a href=""></a></li>
+
+<li class="category"><a href="http://www.ironman-china.com/">China</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="socialNav">
+                        <a href="http://www.facebook.com/Ironmantri" title="facebook" target="_blank" class="facebookLink ss-icon">&#xF610;</a>
+		                <a href="http://twitter.com/ironmantri" title="Twitter" target="_blank" class="twitterLink ss-icon">&#xF611;</a>
+                        <a href="http://www.youtube.com/ironmantriathlon" title="YouTube" target="_blank" class="youtubeLink ss-icon">&#xF630;</a>
+                        <a href="http://content.ironman.com/Subscribe-to-IRONMAN.html?&utm_source=ironman.com+header&utm_medium=ironman+site&utm_campaign=subscribe" title="Email" class="emailLink ss-icon">&#x2709;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<!-- End: Header -->
+
+<!-- Begin: Wrapper -->
+<div id="wrapper" class="">
+
+    <div id="backgroundArea">
+        
+    
+
+<div class="moduleWrap eventSubpageFeature">
+	<div class="bg">
+		<img src="http://www.ironman.com/~/media/ee031bf387d0407ab968c2d3f1f50b19/468431655%201600.jpg" width="1600" height="980"  title="" alt="" />
+	</div>
+    <div class="moduleContentOuter">
+        <div class="moduleContentInner clear">
+			
+            <div id="eventLogoHeader">
+				<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta.aspx"><img src="http://www.ironman.com/~/media/906f7c9f26ca4db3904b364ccfc46649/ironman%2070%203%20augusta%20220x120.png" width="220" height="120"  title="" alt="" /></a>
+			</div>
+            
+			<div id="eventDetails">
+			    
+                <h3 class="eventTitle">IRONMAN 70.3 Augusta</h3>
+			    <h4 class="eventSubtitle">Augusta, Georgia <span class="eventDate">Sep 25, 2016</span></h4>
+                
+                
+                <p class="eventStatus">Sold Out</p>
+                
+    		</div>
+
+		</div>
+	</div>
+</div>
+
+
+<!-- Tabs -->
+<div class="moduleWrap eventNav"> 
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+			<nav class="siteNav">
+			    <div class="navWrapper">
+				    <ul>
+					    <li class="first">
+						    <a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta.aspx" class="clear">Home</a>
+					    </li>
+                        <li class="withDropdown ">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/register.aspx" class="">Register</a>
+<div class="subNavWrapper">
+<div class="subNavWrapperInner">
+<div class="col">
+<ul>
+<li class="  first">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/register/ironman-foundation.aspx" class="">IRONMAN Foundation</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/register/charity-partner.aspx" class="">Charity Partner</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/register/vip-experience.aspx" class="">VIP Experience</a>
+</li>
+<li class=" last">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/register/pro-membership.aspx" class="">Pro Membership</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="withDropdown ">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/race-info.aspx" class="">Race Info</a>
+<div class="subNavWrapper">
+<div class="subNavWrapperInner">
+<div class="col">
+<ul>
+<li class="  first">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/race-info/event-schedule.aspx" class="">Event Schedule</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/race-info/athlete-guide.aspx" class="">Athlete Guide</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/race-info/participant-list.aspx" class="">Participant List</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/race-info/course.aspx" class="">Course</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/race-info/accommodations.aspx" class="">Accommodations</a>
+</li>
+<li class=" last">
+<a href="http://weather.weatherbug.com/weather-forecast/now/augusta-ga-30904" class="" target="_blank">Foster Grant Weather Report</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="withDropdown ">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes.aspx" class="">Athletes</a>
+<div class="subNavWrapper">
+<div class="subNavWrapperInner">
+<div class="col">
+<ul>
+<li class="  first">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/news.aspx" class="">News</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/faqs.aspx" class="">FAQs</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/relay-faqs.aspx" class="">Relay FAQs</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/nutrition.aspx" class="">Nutrition</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/bike-services.aspx" class="">Bike Services</a>
+</li>
+<li class="">
+<a href="http://www.facebook.com/im703augusta" class="" target="_blank">Facebook</a>
+</li>
+<li class="">
+<a href="http://www.finisherpix.com/home.html" class="" target="_blank">FinisherPix</a>
+</li>
+<li class="withSubDropdown ">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/rules-and-regulations.aspx" class="">Rules and Regulations ></a>
+<div class="subsubNavWrapper">
+<ul>
+<li class="  first">
+<a href="http://www.ironman.com/triathlon/pages/resources/physically-challenged.aspx" class="">Physically Challenged</a>
+</li>
+<li class=" last">
+<a href="http://www.ironman.com/triathlon/pages/resources/handcycle.aspx" class="">Handcycle</a>
+</li>
+
+
+</ul>
+</div>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/training-resources.aspx" class="">Training Resources</a>
+</li>
+<li class=" last">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/athletes/roka-first-out-of-the-water-award.aspx" class="">ROKA FIRST OUT OF THE WATER AWARD</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="withDropdown ">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/spectators.aspx" class="">Spectators</a>
+<div class="subNavWrapper">
+<div class="subNavWrapperInner">
+<div class="col">
+<ul>
+<li class="  first">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/spectators/vip-experience.aspx" class="">VIP Experience</a>
+</li>
+<li class=" last">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/spectators/best-places-to-watch.aspx" class="">Best Places to Watch</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/volunteer.aspx" class="">Volunteer</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx" class="active">Results</a>
+</li>
+<li class="">
+<a href="http://ironmanstore.com/events/70-3/ironman-70-3-augusta.html" class="" target="_blank">Shop</a>
+</li>
+<li class="">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/sponsors.aspx" class="">Sponsors</a>
+</li>
+<li class="last">
+<a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/contact.aspx" class="">Contact</a>
+</li>
+
+                    </ul>
+                    
+                    
+
+                </div>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+    </div>
+
+    <div id="backgroundImage">
+        
+        
+    
+
+    </div>
+
+    <!-- Begin: header content area -->
+    
+    
+
+<header class="pagehead">
+    <h2 class="">{0} Results</h2>
+    
+</header>
+
+    <!-- End: header content area -->
+
+    <div id="wrapperInner">
+
+        <!-- Begin: main content area -->
+        
+	
+	
+    <div id="navCol" class="navRail">
+		
+    </div>
+    
+
+    <div id="mainContentColExtra" class="extra clear">
+		
+		
+
+<div class="moduleWrap eventLandingTop"> 
+     
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+			<div class="adContent">
+				<!-- IM_728x90_Americas_Augusta --><div id='div-gpt-ad-1567795967' style='width:728px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567795967'); });</script></div>
+			</div>
+			<div class="adContent">
+				<!-- IM_300x90_Americas_Augusta --><div id='div-gpt-ad-1567795968' style='width:300px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567795968'); });</script></div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+	</div>
+	<!-- Start: main content area -->
+	<div id="mainContentColWrap" class="clear">
+		<div id="mainInnerColWrap">
+			<div id="mainContentCol1" class="">
+				
+			</div>
+			<div id="mainContentCol2" class="">
+				
+			</div>
+			<div id="mainContentCol3" class="rail3">
+				
+			</div>
+			<div id="mainContentCol4" class="rail4">
+				
+
+<div class="moduleWrap eventResults resultsListing resultsListingDetails"> 
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+        	<section>
+        		<div class="result-actions">
+        			<a href="?race=augusta70.3&rd=20150927" class="button-back-results"><span class="ss-icon">&#x25C5;</span> Back to Results</a>
+        			<a target="_blank" href="/finishercertificate.aspx?race=augusta70.3&rd=20150927&bid=93" class="button-get-certificate">Get Certificate <span class="icon-certificate"></span></a>
+        		</div>	
+				<header>
+					<h1>Paul Linck</h1>
+					<div class="right" id="ranks">
+						<div id="div-rank"><strong>Overall Rank:</strong> 12</div>
+						<div id="rank"><strong>Div Rank:</strong> 1</div>
+                        <div id="gen-rank"><strong>Gender Rank:</strong> 12</div>
+					</div>
+				</header>
+				<div class="results-table-white">
+					<div class="athlete-avatar">
+                        
+					</div>
+
+					<table width="350" border="0" class="left" id="general-info">
+						<thead>
+							<tr>
+								<td colspan="2">General Info</td>
+							</tr>
+						</thead>
+					    <tbody>
+					        <tr>
+                                <td><strong>BIB</strong></td>
+                                <td>93</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Division</strong></td>
+                                <td>50-54</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Age</strong></td>
+                                <td>51</td>
+                            </tr>
+                            <tr>
+                                <td><strong>State</strong></td>
+                                <td>GA</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Country</strong></td>
+                                <td>USA</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Profession</strong></td>
+                                <td>---</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Points</strong></td>
+                                <td>3500</td>
+                            </tr>
+					    </tbody>
+                    </table>
+
+					<table width="175" border="0" class="right" id="athelete-details">
+						<thead>
+							<tr>
+								<td colspan="2">Race Summary</td>
+							</tr>
+						</thead>
+					    <tbody>
+					        <tr>
+                                <td><strong>Swim</strong></td>
+                                <td>00:26:47</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Bike</strong></td>
+                                <td>02:16:57</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Run</strong></td>
+                                <td>01:35:37</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Overall</strong></td>
+                                <td>04:24:46</td>
+                            </tr>
+					    </tbody>
+                    </table>
+				</div>
+
+				<div class="athlete-table-details">
+					<p>SWIM DETAILS | Division Rank: 22</p>
+					<table width="100%" border="0">
+						<thead>
+							<tr>
+								<th>Split Name</th>
+                                <th>Distance</th>
+                                <th>Split Time</th>
+                                <th><span title="The Race Time is the overall race clock to this point in the event.">Race Time</span></th>
+                                <th>Pace</th>
+                                <th width="5%">Division Rank</th>
+                                <th width="5%">Gender Rank</th>
+                                <th width="5%">Overall Rank</th>
+							</tr>
+						</thead>
+						<tbody>
+						    
+						</tbody>
+						<tfoot>
+						    <tr>
+    <td><strong>Total</strong></td>    <td><strong>1.2 mi</strong></td>    <td><strong>00:26:47</strong></td>    <td><strong>00:26:47</strong></td>    <td><strong>01:23/100m</strong></td>    <td><strong>22</strong></td>    <td><strong>317</strong></td>    <td><strong>405</strong></td></tr>
+
+						</tfoot>
+					</table>
+
+					<p>BIKE DETAILS | Division Rank: 1</p>
+					<table width="100%" border="0">
+					    <thead>
+					        <tr>
+					            <th>Split Name</th>
+                                <th>Distance</th>
+                                <th>Split Time</th>
+                                <th><span title="The Race Time is the overall race clock to this point in the event.">Race Time</span></th>
+                                <th>Pace</th>
+                                <th width="5%">Division Rank</th>
+                                <th width="5%">Gender Rank</th>
+                                <th width="5%">Overall Rank</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        
+						</tbody>
+					    <tfoot>
+						    <tr>
+    <td><strong>Total</strong></td>    <td><strong>56 mi</strong></td>    <td><strong>02:16:57</strong></td>    <td><strong>02:46:51</strong></td>    <td><strong>24.53 mph</strong></td>    <td><strong>1</strong></td>    <td><strong>7</strong></td>    <td><strong>7</strong></td></tr>
+
+					    </tfoot>
+					</table>
+                    
+					<p>RUN DETAILS | Division Rank: 1</p>
+					<table width="100%" border="0">
+					    <thead>
+					        <tr>
+					            <th>Split Name</th>
+                                <th>Distance</th>
+                                <th>Split Time</th>
+                                <th><span title="The Race Time is the overall race clock to this point in the event.">Race Time</span></th>
+                                <th>Pace</th>
+                                <th width="5%">Division Rank</th>
+                                <th width="5%">Gender Rank</th>
+                                <th width="5%">Overall Rank</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+                            
+						</tbody>
+					    <tfoot>
+						    <tr>
+    <td><strong>Total</strong></td>    <td><strong>13.1 mi</strong></td>    <td><strong>01:35:37</strong></td>    <td><strong>04:24:46</strong></td>    <td><strong>07:17/mi</strong></td>    <td><strong>1</strong></td>    <td><strong>12</strong></td>    <td><strong>12</strong></td></tr>
+
+					    </tfoot>
+					</table>
+
+					<p>Transition Details</p>
+					<table width="100%" border="0">
+						<tbody>
+							<tr>
+                                <td>T1: Swim-to-bike</td>
+                                <td>00:03:07</td>
+                            </tr>
+                            <tr>
+                                <td>T2: Bike-to-run</td>
+                                <td>00:02:18</td>
+                            </tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- required for the overlay to work -->
+<a id="inline" style="display:none" href="#results-pdf-data"></a>
+<div style="display:none">
+    <div id="results-pdf-data">
+        <div class="header"></div>
+        <p class="message"></p>
+        <div class="pdf-link"></div>
+    </div>
+</div>
+
+			</div>
+			<div id="mainContentCol5" class="rail5">
+				
+
+<div class="moduleWrap adModule">
+    <a href="http://ironmanstore.com/events/ironman-70-3/ironman-70-3-augusta.html?utm_source=IM+Race+Pages&utm_medium=ironman.com&utm_campaign=im+70.3+augusta" title=""><img src="http://www.ironman.com/~/media/b8971d7a2ebe4fe788c3360dbff56490/2013%208%2070%203augusta%20eventapparel%20bkgd%20350x80.jpg?w=350&amp;h=80&amp;bg=ffffff" width="350" height="80"  title="" alt="" /></a>
+</div>
+
+
+<div class="moduleWrap subPageSubNav black">
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+			<header>
+				<h2>Race Results</h2>
+			</header>
+			<nav  class="rResultswWrap">
+				<ul id="raceResults" class="subLinks">
+					<li><a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927" class="active"><span class="ss-icon">&#x25C5;</span>09/27/2015 Results</a></li><li><a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20140928"><span class="ss-icon">&#x25C5;</span>09/28/2014 Results</a></li><li><a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20130929"><span class="ss-icon">&#x25C5;</span>09/29/2013 Results</a></li><li><a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20120930"><span class="ss-icon">&#x25C5;</span>09/30/2012 Results</a></li><li><a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20110925"><span class="ss-icon">&#x25C5;</span>09/25/2011 Results</a></li><li><a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20100926"><span class="ss-icon">&#x25C5;</span>09/26/2010 Results</a></li><li><a href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20090927"><span class="ss-icon">&#x25C5;</span>09/27/2009 Results</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+<div class="moduleWrap adModule adModule300x250">
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+            
+        	<!-- IM_300x250_Americas_Augusta --><div id='div-gpt-ad-1223531042' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1223531042'); });</script></div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="moduleWrap genericDesc"> 
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+			<section>
+			    
+				<header>
+					<h1>  </h1>
+				</header>
+                
+				<p><script type="text/javascript">
+window.addEventListener("message", function(e) {
+      // Keep track of the iframe height.
+      var if_height;
+      if (e.origin !== "http://tracking.ironmanlive.com" && e.origin !== "http://tracker.ironman.com" && e.origin !== "http://track.ironman.com")
+      {
+            return;
+      };
+      var h = e.data;
+      if ( !isNaN( h ) && h > 0 && h !== if_height ) {
+                      if (h < 1200) {
+                            h = 1200;
+                      };
+                      // Height has changed, update the iframe.
+                      $('iframe#trackerFrame').height( if_height = h );
+
+      }
+});
+</script></p>
+			</section>
+		</div>
+	</div>
+</div>
+<div class="moduleWrap sponsorGrid">
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+        	
+            <header>
+				<h2>IRONMAN 70.3 Augusta SPONSORS</h2>
+			</header>
+			<ul class="gridList">
+				<li class="odd"><a href="http://www.augustasportscouncil.org/" title="" target="_blank"><img src="http://www.ironman.com/~/media/86c6a4405be34fafa4ebb8615f61dc0d/augusta%20150x150.png" width="150" height="150"/></a></li><li class="even"><a href="http://www.scottrigsbyfoundation.org/index.cfm?fuseaction=cms.page&id=1042" title="" target="_blank"><img src="http://www.ironman.com/~/media/d668d85dd5df4dd585e63fb596098d6d/scott%20rigsby%20foundation%2004.jpg" width="150" height="150"/></a></li><li class="odd"><a href="http://arcticeasewrap.com/" title="" target="_blank"><img src="http://www.ironman.com/~/media/9a4720c809d44ab9b3ecfd6e4eebec67/ae%20logo%20tag%202%20web.png" width="150" height="150"/></a></li><li class="even"><a href="http://www.ashworthawards.com/" title="" target="_blank"><img src="http://www.ironman.com/~/media/2213517c186e46acbfc1f7f4273ae428/ashworth%20awards%20logo%20150%20x150.gif" width="150" height="150"/></a></li>
+			</ul>
+            <a class="viewAllLink" title="View all sponsors" href="http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/sponsors.aspx">View all sponsors <span class="ss-icon">&#x25BB;</span></a>
+		</div>
+	</div>
+</div>
+<div class="moduleWrap adModule adModule300x100">
+    <div class="moduleContentOuter">          
+        <div class="moduleContentInner clear">
+            
+        	<!-- IM_300x100_Americas_Augusta --><div id='div-gpt-ad-1574886572' style='width:300px; height:100px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1574886572'); });</script></div>
+
+		</div>
+	</div>
+</div>
+
+
+			</div>
+            <div id="mainContentCol6" class="rail6">
+				
+			</div>
+		</div>
+	</div>
+    <div id="mainContentColExtraBottom" class="extraBottom clear">
+		
+	</div>
+
+        <!-- End: main content area -->
+
+    </div>
+
+</div>
+<!-- End: Wrapper -->
+<div class="bottomBg"></div>
+<!-- Begin: Footer -->
+<footer>
+    <div id="footerInner">
+        <div class="footerNav clear">
+            
+
+<dl>
+    <dt><a href="http://www.ironman.com/events/triathlon-races.aspx" title="Races">Races</a></dt>
+    
+<dt><a href="http://www.ironman.com/events/triathlon-races.aspx" title="All Races">All Races</a></dt><dd><a class="liveFooterCss" href="http://www.ironman.com/triathlon/coverage/live.aspx" title="Live Coverage" target="_self">Live Coverage</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?d=ironman" title="IRONMAN" target="_self">IRONMAN</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?d=ironman+70.3" title="IRONMAN 70.3" target="_self">IRONMAN 70.3</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/events/championships.aspx" title="Championships" target="_self">Championships</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?d=shortcourse" title="Short Course Tri" target="_self">Short Course Tri</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?d=cycling" title="Cycling" target="_self">Cycling</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?d=running" title="Running" target="_self">Running</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?d=ironkids" title="IRONKIDS" target="_self">IRONKIDS</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?d=multisports" title="MultiSport Tri" target="_self">MultiSport Tri</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/events/north-american-ironman-transfer-program.aspx" title="North American Transfer Program" target="_self">North American Transfer Program</a></dd>
+<dd><a href="http://www.ironman.com/full-refund-plan.aspx" title="Refund Plan" target="_self">Refund Plan</a></dd>
+<dt>Locations</dt><dd><a href="http://www.ironman.com/events/triathlon-races.aspx?l=north+america" title="North America" target="_self">North America</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?l=south+america" title="South America" target="_self">South America</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?l=europe" title="Europe" target="_self">Europe</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?l=africa" title="Africa" target="_self">Africa</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?l=asia" title="Asia" target="_self">Asia</a></dd>
+<dd><a href="http://www.ironman.com/events/triathlon-races.aspx?l=australia" title="Australia" target="_self">Australia</a></dd>
+
+
+</dl>
+
+<dl>
+    <dt>Results</dt>
+    
+<dt>Age Group Athletes</dt><dd><a href="http://www.ironman.com/triathlon/coverage/live.aspx" title="Recent Results" target="_self">Recent Results</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/organizations/all-world-athlete/agr.aspx" title="Rankings" target="_self">Rankings</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/organizations/all-world-athlete.aspx" title="All World Athletes" target="_self">All World Athletes</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/profiles.aspx" title="Profiles" target="_self">Profiles</a></dd>
+<dt>Pro Athletes</dt><dd><a href="http://www.ironman.com/triathlon/organizations/pro-membership.aspx" title="Pro Membership" target="_self">Pro Membership</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/triathlon-rankings/points-system.aspx" title="Rankings" target="_self">Rankings</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/race-news.aspx" title="Race News" target="_self">Race News</a></dd>
+<dt>Coverage</dt><dd><a class="liveFooterCss" href="http://www.ironman.com/triathlon/coverage/live.aspx" title="Live Now" target="_self">Live Now</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/coverage/past.aspx" title="Past Coverage" target="_self">Past Coverage</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/race-news.aspx" title="Race News" target="_self">Race News</a></dd>
+
+
+</dl>
+
+<dl>
+    <dt><a href="http://www.ironman.com/triathlon-news/training.aspx" title="Training">Training</a></dt>
+    
+<dt><a href="http://www.ironman.com/triathlon/pages/getting-started.aspx" title="Get Started">Get Started</a></dt><dd><a href="http://www.ironman.com/triathlon-news/ironman-101.aspx" title="IRONMAN 101" target="_self">IRONMAN 101</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/pages/resources/rules-and-regulations.aspx" title="Rules" target="_self">Rules</a></dd>
+<dt>Reach Your Goals</dt><dd><a href="http://www.ironman.com/triathlon-news/training.aspx" title="Training" target="_self">Training</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/nutrition.aspx" title="Nutrition" target="_self">Nutrition</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/inspiration.aspx" title="Inspiration" target="_self">Inspiration</a></dd>
+
+
+</dl>
+
+<dl>
+    <dt><a href="http://www.ironman.com/triathlon-news/headlines.aspx" title="News">News</a></dt>
+    
+<dt><a href="http://www.ironman.com/triathlon-news/headlines.aspx" title="All News">All News</a></dt><dd><a href="http://www.ironman.com/triathlon-news/race-news.aspx" title="Race News" target="_self">Race News</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/training.aspx" title="Training" target="_self">Training</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/nutrition.aspx" title="Nutrition" target="_self">Nutrition</a></dd>
+<dd><a href="http://www.ironman.com/triathlon-news/inspiration.aspx" title="Inspiration" target="_self">Inspiration</a></dd>
+<dt>Social Community</dt><dd><a href="http://www.ironman.com/triathlon/social-community/from-the-fans.aspx" title="From the Fans" target="_self">From the Fans</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/social-community/facebook.aspx" title="Facebook" target="_self">Facebook</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/social-community/twitter.aspx" title="Twitter" target="_self">Twitter</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/social-community/instagram.aspx" title="Instagram" target="_self">Instagram</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/social-community/pinterest.aspx" title="Pinterest" target="_self">Pinterest</a></dd>
+
+
+</dl>
+
+<dl class="last">
+    <dt class="headerCss"><a href="http://ironmanstore.com/?utm_source=ironman.com&utm_medium=nav+bar&utm_campaign=shop+button" title="Triathlon Gear">Triathlon Gear</a></dt>
+    <dd><a href="http://www.ironmanstore.com/shop?_event=66&limit=40?utm_source=ironman+site&utm_medium=nav+drop+down&utm_campaign=event+world+championship+gear" title="Official World Championship Gear" target="_blank">Official World Championship Gear</a></dd>
+<dd><a href="http://ironmanstore.com/event-50-off.html?utm_source=ironman.com&utm_medium=footer&utm_campaign=event" title="Event Gear" target="_blank">Event Gear</a></dd>
+<dd><a href="http://www.ironmanstore.com/finisher.html?utm_source=ironman+site&utm_medium=footer+link&utm_campaign=finisher" title="Finisher" target="_self">Finisher</a></dd>
+<dd><a href="http://www.ironmanstore.com/sugoi-deals.html?&utm_source=ironman+site&utm_medium=footer+link&utm_campaign=training" title="Training" target="_self">Training</a></dd>
+<dd><a href="http://www.ironmanstore.com/sugoi-deals.html?&utm_source=ironman+site&utm_medium=footer+link&utm_campaign=sale" title="Sale" target="_self">Sale</a></dd>
+
+<dt class="headerCss ">Programs</dt><dd><a href="http://www.ironman.com/triathlon/organizations/triclubs.aspx" title="TriClub Program" target="_self">TriClub Program</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/events/vip-experience.aspx" title="VIP Experience" target="_self">VIP Experience</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/organizations/all-world-athlete.aspx" title="All World Athlete Program" target="_self">All World Athlete Program</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/events/americas/ironman/world-championship/register/ironman-legacy-program.aspx" title="Kona Legacy Program" target="_self">Kona Legacy Program</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/organizations/anti-doping.aspx" title="Anti-Doping" target="_self">Anti-Doping</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/organizations/women-for-tri.aspx" title="Women for Tri" target="_self">Women for Tri</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/events/swimsmart-initiative.aspx" title="SwimSmart" target="_self">SwimSmart</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/news/articles/2014/09/hof/hall-of-fame-main.aspx" title="Hall of Fame" target="_self">Hall of Fame</a></dd>
+<dd><a href="http://ironmanfoundation.org" title="Foundation" target="_self">Foundation</a></dd>
+
+
+</dl>
+            <dl class="corporate clear">
+<dt>Corporate:</dt><dd><a href="http://www.ironman.com/triathlon/organizations/media.aspx" title="Press Information">Press Information</a></dd>
+<dd><a href="http://ironman.teamworkonline.com/teamwork/jobs/default.cfm" title="Jobs">Jobs</a></dd>
+<dd></dd>
+<dd><a href="http://www.ironman.com/triathlon/legal-faq.aspx" title="Intellectual Property Usage">Intellectual Property Usage</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/privacy-policy.aspx" title="Privacy Policy">Privacy Policy</a></dd>
+<dd><a href="http://www.ironman.com/triathlon/contact-us.aspx" title="Contact">Contact</a></dd>
+<dd><a href="http://feeds.ironman.com/ironman/topstories" title="RSS" target="_blank">RSS</a></dd>
+</dl>
+            
+        </div>
+        <div class="footerRight">
+            <p class="subscribeLabel">Get News & Race Updates <span>Be the first to know what's happening </br> in the world of IRONMAN.</span></p>
+		    <a href="http://content.ironman.com/Subscribe-to-IRONMAN.html?&utm_source=ironman.com+header&utm_medium=ironman+site&utm_campaign=subscribe" title="Email" class="signupBtn" data-ga-event="newsletterClickThrough">Signup for Email Updates</a>
+            <a href="http://www.facebook.com/Ironmantri" title="facebook" target="_blank" class="facebookLink"><span class="ss-icon">&#xF610;</span></a>
+            <a href="http://twitter.com/ironmantri" title="Twitter" target="_blank" class="twitterLink"><span class="ss-icon">&#xF611;</span></a>
+            <a href="http://www.youtube.com/ironmantriathlon" title="YouTube" target="_blank" class="youtubeLink"><span class="ss-icon">&#xF630;</span></a>
+            <a href="http://www.mirumagency.com" target="_blank" class="digiLink">
+				<img src="http://www.ironman.com/media/built_by_mirum.png" alt="Site Built By Mirum" width="75" height="33"/>
+			</a>
+        </div>
+    </div>
+    <div class="footerCopyright">
+        <div class="footerCopyrightInner">
+            <p>Copyright&copy; 2001-2016 World Triathlon Corporation (WTC). All Rights Reserved. IRONMAN&reg;, IRONMAN TRIATHLON&reg;, M-DOT&reg;, IRONMANLIVE.com&reg;, IRONMAN.COM&trade; and 70.3&reg; are trademarks of WTC.<br/>Any use of these marks without the express written consent of WTC is prohibited.</p>
+        </div>
+    </div>
+</footer>
+<!-- End: Footer -->
+
+<script type="text/javascript">
+    jCoreInit("http%3a%2f%2fwww.ironman.com%2ftriathlon%2fevents%2famericas%2fironman-70.3%2faugusta%2fresults.aspx", "%7b0%7d+Results", "30e8b17c-29b9-4ec3-8cd7-98f0619a0622", []);
+</script>
+
+<!-- Start IRONMAN Quantcast tag -->
+<script type="text/javascript">
+    qoptions={
+        qacct:"p-3fRk5b9IqK8fo"
+    };
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-3fRk5b9IqK8fo.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End IRONMAN Quantcast tag -->
+<!-- Begin comScore Tag -->
+<!-- <script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script>
+    COMSCORE.beacon({
+        c1:2,
+        c2:3005619,
+        c3:"",
+        c4:"",
+        c5:"",
+        c6:"",
+        c15:""
+    });
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=3005619&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>-->
+<!-- End comScore Tag -->
+
+<script type="text/javascript">tyntVariables = {"ap":"Originally from:"};</script> <script type="text/javascript" src="http://tcr.tynt.com/javascripts/Tracer.js?user=bakJX-LzSr34Enadbi-bpO&b=1"></script>
+</body>
+</html>
