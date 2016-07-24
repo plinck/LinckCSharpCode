@@ -22,11 +22,11 @@ namespace ConsoleApplication1
 
             myURLString = @"http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3&bidid=93&detail=1#axzz4FGGcjBOn";
 
-            // From System.net
+            // From System.net  - get the webpage
             WebClient myWebClient = new WebClient();
             myHTMLPageString = myWebClient.DownloadString(myURLString);
  
-            // From HtmlAgilityPack
+            // From HtmlAgilityPack - parse the HTML file
             HtmlDocument myHtmlDocument = new HtmlDocument();
             myHtmlDocument.LoadHtml(myHTMLPageString);
             // Console.WriteLine(myHTMLPageString);
