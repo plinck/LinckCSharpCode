@@ -8,13 +8,14 @@ using System.Net.Http;
 using HtmlAgilityPack;
 using System.IO;
 
-// Wiring this to grab the ironman website and parse it
+// Wiring this to grab the ironman website and parse it  
 // eventually want to stuff it into a database and view results on phone and webpage
 // for specific bib numbers and have soring capabilites - like what charlie wrote
 namespace ConsoleApplication1
 {
     class Program
     {
+        // Main starting point - entry point for console app
         static void Main(string[] args)
         {
             string myURLString;
