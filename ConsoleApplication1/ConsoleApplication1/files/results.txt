@@ -185,10 +185,10 @@ _gaq.push(['_setCustomVar', 4, 'Article Byline', '', 3]);
 
         <script type='text/javascript'>
             googletag.cmd.push(function () {
-                googletag.defineSlot('/4606835/IM_728x90_Americas_Augusta', [728, 90], 'div-gpt-ad-892499354').addService(googletag.pubads());
-googletag.defineSlot('/4606835/IM_300x90_Americas_Augusta', [300, 90], 'div-gpt-ad-892499355').addService(googletag.pubads());
-googletag.defineSlot('/4606835/IM_300x250_Americas_Augusta', [300, 250], 'div-gpt-ad-129097911').addService(googletag.pubads());
-googletag.defineSlot('/4606835/IM_300x100_Americas_Augusta', [300, 100], 'div-gpt-ad-1505989512').addService(googletag.pubads());
+                googletag.defineSlot('/4606835/IM_728x90_Americas_Augusta', [728, 90], 'div-gpt-ad-12097212').addService(googletag.pubads());
+googletag.defineSlot('/4606835/IM_300x90_Americas_Augusta', [300, 90], 'div-gpt-ad-12097213').addService(googletag.pubads());
+googletag.defineSlot('/4606835/IM_300x250_Americas_Augusta', [300, 250], 'div-gpt-ad-1747434945').addService(googletag.pubads());
+googletag.defineSlot('/4606835/IM_300x100_Americas_Augusta', [300, 100], 'div-gpt-ad-1328298428').addService(googletag.pubads());
 
                 googletag.pubads().collapseEmptyDivs();
                 googletag.pubads().enableSingleRequest();
@@ -766,10 +766,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="moduleContentOuter">          
         <div class="moduleContentInner clear">
 			<div class="adContent">
-				<!-- IM_728x90_Americas_Augusta --><div id='div-gpt-ad-892499354' style='width:728px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-892499354'); });</script></div>
+				<!-- IM_728x90_Americas_Augusta --><div id='div-gpt-ad-12097212' style='width:728px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-12097212'); });</script></div>
 			</div>
 			<div class="adContent">
-				<!-- IM_300x90_Americas_Augusta --><div id='div-gpt-ad-892499355' style='width:300px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-892499355'); });</script></div>
+				<!-- IM_300x90_Americas_Augusta --><div id='div-gpt-ad-12097213' style='width:300px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-12097213'); });</script></div>
 			</div>
 		</div>
 	</div>
@@ -1011,7 +1011,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="moduleContentOuter">          
         <div class="moduleContentInner clear">
             
-        	<!-- IM_300x250_Americas_Augusta --><div id='div-gpt-ad-129097911' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-129097911'); });</script></div>
+        	<!-- IM_300x250_Americas_Augusta --><div id='div-gpt-ad-1747434945' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1747434945'); });</script></div>
 
 		</div>
 	</div>
@@ -1068,7 +1068,7 @@ window.addEventListener("message", function(e) {
     <div class="moduleContentOuter">          
         <div class="moduleContentInner clear">
             
-        	<!-- IM_300x100_Americas_Augusta --><div id='div-gpt-ad-1505989512' style='width:300px; height:100px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1505989512'); });</script></div>
+        	<!-- IM_300x100_Americas_Augusta --><div id='div-gpt-ad-1328298428' style='width:300px; height:100px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1328298428'); });</script></div>
 
 		</div>
 	</div>

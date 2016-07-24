@@ -30,8 +30,9 @@ namespace ConsoleApplication1
             // From HtmlAgilityPack
             HtmlDocument myHtmlDocument = new HtmlDocument();
             myHtmlDocument.LoadHtml(myHTMLPageString);
-            // Console.WriteLine(myHTMLPageString);
-            // Console.ReadLine();
+
+            /*
+            // Write the HTML to a file for offline viewing / analysis
             try
             {
                 File.WriteAllText(@"C:\Users\paul\Documents\GitRepos\LinckCSharpCode\ConsoleApplication1\ConsoleApplication1\files\results.txt", myHTMLPageString);
@@ -45,8 +46,7 @@ namespace ConsoleApplication1
             {
                 // Clean Up
             }
-
-            Console.WriteLine("---------");
+            */
 
             string myCurrentResultField = "";
             int myResultsFieldsFound = 0;
@@ -54,7 +54,6 @@ namespace ConsoleApplication1
             bool foundDivisionRank = false, foundGenderRank = false, foundOverallRank = false;
             int myDivisionRank, myGenderRank, myOverallRank;
             
-
             // First, get the node for the division class that contains the results
             HtmlAgilityPack.HtmlNode myDivisionNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@class='moduleContentInner clear']");
 
@@ -73,28 +72,24 @@ namespace ConsoleApplication1
                         myDivisionRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
                         Console.WriteLine("DIVISION RANK: {0}", myDivisionRank);
                     }
-                    else
-                        myCurrentResultField = "";
-
+ 
                     // <div id=gen-rank is gender
                     myRanksNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@id='gen-rank']");
                     if (myRanksNode != null && !foundGenderRank)
                     {
                         foundGenderRank = true;                      // Found valid results node
                         // Separate Label and Field - using System.Text.RegularExpressions.Regex
-                        int myOverallRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
-                        Console.WriteLine("GENDER RANK: {0}", myOverallRank);
+                        myGenderRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
+                        Console.WriteLine("GENDER RANK: {0}", myGenderRank);
                     }
-                    else
-                        myCurrentResultField = "";
 
                     // OVERALL RANK <div id=div-rank is actually overall rank (error on website)
                     myRanksNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@id='div-rank']");
                     if (myRanksNode != null)
                     {
-                        myResultsFieldsFound += 1;                      // Found valid results node
+                        foundOverallRank = true;                    // Found valid results node
                         // Separate Label and Field - using System.Text.RegularExpressions.Regex
-                        int myOverallRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
+                        myOverallRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
                         Console.WriteLine("OVERALL RANK: {0}", myOverallRank);
                     }
                     else
@@ -133,13 +128,15 @@ namespace ConsoleApplication1
                             Console.WriteLine("BIKE: " + cell.InnerText);
                         else if (myCurrentResultField == "RUN")
                             Console.WriteLine("RUN: " + cell.InnerText);
+                        else if (myCurrentResultField == "OVERALL")
+                            Console.WriteLine("OVERALL: " + cell.InnerText);
                         else if (myCurrentResultField == "T1: SWIM-TO-BIKE")
                             Console.WriteLine("T1: SWIM-TO-BIKE: " + cell.InnerText);
                         else if (myCurrentResultField == "T2: BIKE-TO-RUN")
                             Console.WriteLine("T2: BIKE-TO-RUN: " + cell.InnerText);
 
                         // If 8 items found, you are done
-                        if (myResultsFieldsFound >= 8)
+                        if (myResultsFieldsFound >= 9)
                             break;
 
                         // Save this Label to see the value is next cell
@@ -155,6 +152,8 @@ namespace ConsoleApplication1
                             myCurrentResultField = "BIKE";
                         else if (cell.InnerText.ToUpper() == "RUN")
                             myCurrentResultField = "RUN";
+                        else if (cell.InnerText.ToUpper() == "OVERALL")
+                            myCurrentResultField = "OVERALL";
                         else if (cell.InnerText.ToUpper() == "T1: SWIM-TO-BIKE")
                             myCurrentResultField = "T1: SWIM-TO-BIKE";
                         else if (cell.InnerText.ToUpper() == "T2: BIKE-TO-RUN")
@@ -168,11 +167,11 @@ namespace ConsoleApplication1
 
                     }//cols
                      // If 8 items found, you are done
-                    if (myResultsFieldsFound >= 8)
+                    if (myResultsFieldsFound >= 9)
                         break;
                 }//rows
                  // If 8 items found, you are done
-                if (myResultsFieldsFound >= 8)
+                if (myResultsFieldsFound >= 9)
                     break;
             }//table
 
