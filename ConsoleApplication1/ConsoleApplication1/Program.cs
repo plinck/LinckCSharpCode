@@ -21,12 +21,16 @@ namespace ConsoleApplication1
             string myURLString;
             string myHTMLPageString;
 
-            myURLString = @"http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3&bidid=93&detail=1#axzz4FGGcjBOn";
+            string currentBibId = "93";
+
+            myURLString = @"http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3" +
+                                @"&bidid=" + currentBibId + 
+                                @"&detail=1#axzz4FGGcjBOn";
 
             // From System.net
             WebClient myWebClient = new WebClient();
             myHTMLPageString = myWebClient.DownloadString(myURLString);
- 
+
             // From HtmlAgilityPack
             HtmlDocument myHtmlDocument = new HtmlDocument();
             myHtmlDocument.LoadHtml(myHTMLPageString);
@@ -53,7 +57,7 @@ namespace ConsoleApplication1
             HtmlAgilityPack.HtmlNode myRanksNode;
             bool foundDivisionRank = false, foundGenderRank = false, foundOverallRank = false;
             int myDivisionRank, myGenderRank, myOverallRank;
-            
+
             // First, get the node for the division class that contains the results
             HtmlAgilityPack.HtmlNode myDivisionNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@class='moduleContentInner clear']");
 
@@ -67,12 +71,15 @@ namespace ConsoleApplication1
                     myRanksNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@id='rank']");
                     if (myRanksNode != null && !foundDivisionRank)
                     {
+                        // Since you found a valid results node, the header node must be correct so grab name
+                        Console.WriteLine("NAME: {0}", myH1.InnerText);
+
                         foundDivisionRank = true;                      // Found valid results node
                         // Separate Label and Field - using System.Text.RegularExpressions.Regex
                         myDivisionRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
                         Console.WriteLine("DIVISION RANK: {0}", myDivisionRank);
                     }
- 
+
                     // <div id=gen-rank is gender
                     myRanksNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@id='gen-rank']");
                     if (myRanksNode != null && !foundGenderRank)
@@ -95,7 +102,7 @@ namespace ConsoleApplication1
                     else
                         myCurrentResultField = "";
 
- 
+
                     // If all 3 items found, you are done
                     if (foundDivisionRank && foundGenderRank && foundOverallRank)
                         break;
@@ -178,5 +185,34 @@ namespace ConsoleApplication1
             Console.ReadLine();
 
         }
+    }
+
+    class AthleteResult
+    {
+        public string Name { get; set; }
+        public int BibNbr { get; set; }
+        public string Gender { get; set; }
+        public string Division { get; set; }
+        public int Age { get; set; }
+        public int DivisionRank { get; set; }
+        public int GenderRank { get; set; }
+        public int OverallRank { get; set; }
+        public string SwimTime { get; set; }
+        public string BikeTime { get; set; }
+        public string RunTime { get; set; }
+        public string T1Time { get; set; }
+        public string T2Time { get; set; }
+        public string OverallTime { get; set; }
+
+        public void BibNbrStringToInt(String bib)
+        {
+            BibNbr = int.Parse(bib);
+        }
+
+        public void AgreStringToInt(String age)
+        {
+            Age = int.Parse(age);
+        }
+
     }
 }
