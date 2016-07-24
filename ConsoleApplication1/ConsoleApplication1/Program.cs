@@ -76,7 +76,7 @@ namespace ConsoleApplication1
                     else
                         myCurrentResultField = "";
 
-                    // <div id=gen-rank is gender
+                    // <div id=gen-rank is gender 
                     myRanksNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@id='gen-rank']");
                     if (myRanksNode != null && !foundGenderRank)
                     {
