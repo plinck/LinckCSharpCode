@@ -14,7 +14,7 @@ using System.Text.RegularExpressions;
 // for specific bib numbers and have soring capabilites - like what charlie wrote
 namespace ConsoleApplication1
 {
-    class MainProgram
+    class Program
     {
         static void Main(string[] args)
         {
