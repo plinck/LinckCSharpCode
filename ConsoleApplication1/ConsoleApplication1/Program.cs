@@ -27,7 +27,7 @@ namespace ConsoleApplication1
             WebClient myWebClient = new WebClient();
             myHTMLPageString = myWebClient.DownloadString(myURLString);
  
-            // From HtmlAgilityPack
+            // From HtmlAgilityPack 
             HtmlDocument myHtmlDocument = new HtmlDocument();
             myHtmlDocument.LoadHtml(myHTMLPageString);
             // Console.WriteLine(myHTMLPageString);
