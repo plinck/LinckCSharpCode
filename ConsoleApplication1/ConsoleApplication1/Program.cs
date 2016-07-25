@@ -23,13 +23,8 @@ namespace ConsoleApplication1
 
             string currentBibId = "93";
 
-            myURLString = @"http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3" +
-                                @"&bidid=" + currentBibId + 
-                                @"&detail=1#axzz4FGGcjBOn";
-
-            // From System.net
-            WebClient myWebClient = new WebClient();
-            myHTMLPageString = myWebClient.DownloadString(myURLString);
+            HTMLRequest myHTMLRequest = new HTMLRequest(currentBibId);
+            myHTMLPageString = myHTMLRequest.getHTMLPageString();
 
             // From HtmlAgilityPack
             HtmlDocument myHtmlDocument = new HtmlDocument();
@@ -184,6 +179,36 @@ namespace ConsoleApplication1
 
             Console.ReadLine();
 
+        }
+    }
+    class MyClass
+    {
+
+
+    }
+
+    class HTMLRequest
+    {
+        private string myURLString, myHTMLPageString;
+
+        public HTMLRequest()
+        {
+        }
+
+        public HTMLRequest(string bib)
+        {
+            myURLString = @"http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3" +
+                                @"&bidid=" + bib +
+                                @"&detail=1#axzz4FGGcjBOn";
+            // From System.net
+            WebClient myWebClient = new WebClient();
+            myHTMLPageString = myWebClient.DownloadString(myURLString);
+
+        }
+
+        internal string getHTMLPageString()
+        {
+            return myHTMLPageString;
         }
     }
 
