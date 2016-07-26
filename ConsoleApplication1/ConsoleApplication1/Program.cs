@@ -23,18 +23,73 @@ namespace ConsoleApplication1
 
             string currentBibId = "93";
 
-            HTMLRequest myHTMLRequest = new HTMLRequest(currentBibId);
-            myHTMLPageString = myHTMLRequest.getHTMLPageString();
+            myURLString = URLRequest.formatURL(currentBibId);
+            // myHTMLPageString = HTMLPageString.getHTMLPageString(myURLString);
+            myHTMLPageString = HTMLPageString.readPageFromFile(myURLString);  // for testing get from file
+
+            HTMLPage myHTMLPage = new HTMLPage(myHTMLPageString);
 
             // From HtmlAgilityPack
-            HtmlDocument myHtmlDocument = new HtmlDocument();
-            myHtmlDocument.LoadHtml(myHTMLPageString);
+            HTMLPage myHTMLPage = new HTMLPage(htmlPageString); 
 
-            /*
+            Console.ReadLine();
+
+        }
+    }
+    class MyClass
+    {
+
+
+    }
+
+
+    /****************************************************************
+    // URLRequest - STATIC -   
+    // This class contains helper methods to build the properly
+    // formatted URL request depending on various inputs
+    *****************************************************************/
+    static class URLRequest
+    {
+        static private string myURLString;
+
+        public static string formatURL (string bib)
+        {
+            myURLString = @"http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3" + 
+                            @"&bidid=" + bib +
+                            @"&detail=1#axzz4FGGcjBOn";
+            
+            return myURLString;
+        }
+    }
+
+    /****************************************************************
+    // HTMLPageString static class
+    // This class gets the page from the web and returns the
+    // contents in string format that can be used for later parsing
+    *****************************************************************/
+    static class HTMLPageString
+    {
+        private string myHTMLPageString;
+
+        public string getHTMLPageString(string url)
+        {
+            // From System.net
+            WebClient myWebClient = new WebClient();
+            myHTMLPageString = myWebClient.DownloadString(url);
+
+            return myHTMLPageString;
+        }
+
+        public void savePageToFile(htmlPageString)
+        {
+            string currentDirectory = @"C:\Users\paul\Documents\GitRepos\LinckCSharpCode\ConsoleApplication1\ConsoleApplication1\";
+            string currentFile = @"files\results.txt";
+
             // Write the HTML to a file for offline viewing / analysis
+            // First, get the current directory and the
             try
             {
-                File.WriteAllText(@"C:\Users\paul\Documents\GitRepos\LinckCSharpCode\ConsoleApplication1\ConsoleApplication1\files\results.txt", myHTMLPageString);
+                File.WriteAllText(currentDirectory + currentFile, htmlPageString);
             }
             catch (Exception ex)
             {
@@ -45,16 +100,70 @@ namespace ConsoleApplication1
             {
                 // Clean Up
             }
-            */
+        }
+        
+        // use this for testing without internet connection
+        public string readPageFromFile()
+        {
+            string currentDirectory = @"C:\Users\paul\Documents\GitRepos\LinckCSharpCode\ConsoleApplication1\ConsoleApplication1\";
+            string currentFile = @"files\results.txt";
+
+            try
+            {
+                File.ReadAllText(currentDirectory + currentFile, htmlPageString);
+                return htmlPageString;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("There was a problem writing the file!");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                // Clean Up
+            }
+        }
+
+    }
+
+   /****************************************************************
+    // HTMLPage class
+    // This class has all the result data on the page
+    // handles the HTML parsing and saves the results
+    // All the HtmlAgilityPack classes are encapsulated in this class
+    *****************************************************************/
+    static class HTMLPage
+    {
+        private HtmlDocument myHtmlDocument;
+
+        private int athleteDivisionRank;
+        private int athleteGenderRank;
+        private int athleteOverallRank;
+        private string athleteBib;
+        private string athleteName;
+        private string athleteDivision;
+        private string athleteAge;
+        private string athleteSwimTime;
+        private string athleteBikeTime;
+        private string athleteRunTime;
+        private string athleteOverallTime;
+        private string athleteT1Time;
+        private string athleteT2Time;
+
+        public HtmlDocument HTMLPage(htmlPageString)
+        {
+            // From HtmlAgilityPack
+            HtmlDocument myHtmlDocument = new HtmlDocument();
+            myHtmlDocument.LoadHtml(htmlPageString);
 
             string myCurrentResultField = "";
             int myResultsFieldsFound = 0;
-            HtmlAgilityPack.HtmlNode myRanksNode;
             bool foundDivisionRank = false, foundGenderRank = false, foundOverallRank = false;
-            int myDivisionRank, myGenderRank, myOverallRank;
+            
+            HtmlAgilityPack.HtmlNode myRanksNode;
 
             // First, get the node for the division class that contains the results
-            HtmlAgilityPack.HtmlNode myDivisionNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@class='moduleContentInner clear']");
+            HtmlNode myDivisionNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@class='moduleContentInner clear']");
 
             // Find the correct header for the results 
             foreach (HtmlNode header in myDivisionNode.SelectNodes("//header"))
@@ -66,23 +175,17 @@ namespace ConsoleApplication1
                     myRanksNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@id='rank']");
                     if (myRanksNode != null && !foundDivisionRank)
                     {
-                        // Since you found a valid results node, the header node must be correct so grab name
-                        Console.WriteLine("NAME: {0}", myH1.InnerText);
-
                         foundDivisionRank = true;                      // Found valid results node
                         // Separate Label and Field - using System.Text.RegularExpressions.Regex
-                        myDivisionRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
-                        Console.WriteLine("DIVISION RANK: {0}", myDivisionRank);
+                        athleteDivisionRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
                     }
 
-                    // <div id=gen-rank is gender
+                    // GENDER RANK <div id=gen-rank is gender
                     myRanksNode = myHtmlDocument.DocumentNode.SelectSingleNode("//div[@id='gen-rank']");
                     if (myRanksNode != null && !foundGenderRank)
                     {
                         foundGenderRank = true;                      // Found valid results node
-                        // Separate Label and Field - using System.Text.RegularExpressions.Regex
-                        myGenderRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
-                        Console.WriteLine("GENDER RANK: {0}", myGenderRank);
+                        athleteGenderRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
                     }
 
                     // OVERALL RANK <div id=div-rank is actually overall rank (error on website)
@@ -90,9 +193,7 @@ namespace ConsoleApplication1
                     if (myRanksNode != null)
                     {
                         foundOverallRank = true;                    // Found valid results node
-                        // Separate Label and Field - using System.Text.RegularExpressions.Regex
-                        myOverallRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
-                        Console.WriteLine("OVERALL RANK: {0}", myOverallRank);
+                        athleteOverallRank = int.Parse(Regex.Match(myRanksNode.InnerText, @"\d+").Value);
                     }
                     else
                         myCurrentResultField = "";
@@ -109,7 +210,6 @@ namespace ConsoleApplication1
 
             myCurrentResultField = "";
             myResultsFieldsFound = 0;
-
             // Find all the result details
             foreach (HtmlNode table in myHtmlDocument.DocumentNode.SelectNodes("//table[@id='general-info']"))
             {
@@ -119,23 +219,23 @@ namespace ConsoleApplication1
                     foreach (HtmlNode cell in table.SelectNodes("//th|//td"))
                     {
                         if (myCurrentResultField == "BIB")
-                            Console.WriteLine("BIB: " + cell.InnerText);
+                            athleteBib = cell.InnerText;
                         else if (myCurrentResultField == "DIVISION")
-                            Console.WriteLine("DIVISION: " + cell.InnerText);
+                            athleteDivision cell.InnerText;
                         else if (myCurrentResultField == "AGE")
-                            Console.WriteLine("AGE: " + cell.InnerText);
+                            athleteAge = cell.InnerText;
                         else if (myCurrentResultField == "SWIM")
-                            Console.WriteLine("SWIM: " + cell.InnerText);
+                            athleteSwimTime = cell.InnerText;
                         else if (myCurrentResultField == "BIKE")
-                            Console.WriteLine("BIKE: " + cell.InnerText);
+                            athleteBikeTime = cell.InnerText;
                         else if (myCurrentResultField == "RUN")
-                            Console.WriteLine("RUN: " + cell.InnerText);
+                            athleteRunTime = cell.InnerText;
                         else if (myCurrentResultField == "OVERALL")
-                            Console.WriteLine("OVERALL: " + cell.InnerText);
+                            athleteOverallTime = cell.InnerText;
                         else if (myCurrentResultField == "T1: SWIM-TO-BIKE")
-                            Console.WriteLine("T1: SWIM-TO-BIKE: " + cell.InnerText);
+                            athleteT1Time = cell.InnerText;
                         else if (myCurrentResultField == "T2: BIKE-TO-RUN")
-                            Console.WriteLine("T2: BIKE-TO-RUN: " + cell.InnerText);
+                            athleteT2Time = cell.InnerText;
 
                         // If 8 items found, you are done
                         if (myResultsFieldsFound >= 9)
@@ -177,41 +277,15 @@ namespace ConsoleApplication1
                     break;
             }//table
 
-            Console.ReadLine();
-
         }
-    }
-    class MyClass
-    {
-
+        
 
     }
 
-    class HTMLRequest
-    {
-        private string myURLString, myHTMLPageString;
-
-        public HTMLRequest()
-        {
-        }
-
-        public HTMLRequest(string bib)
-        {
-            myURLString = @"http://www.ironman.com/triathlon/events/americas/ironman-70.3/augusta/results.aspx?rd=20150927&race=augusta70.3" +
-                                @"&bidid=" + bib +
-                                @"&detail=1#axzz4FGGcjBOn";
-            // From System.net
-            WebClient myWebClient = new WebClient();
-            myHTMLPageString = myWebClient.DownloadString(myURLString);
-
-        }
-
-        internal string getHTMLPageString()
-        {
-            return myHTMLPageString;
-        }
-    }
-
+    /****************************************************************
+    // HTMLPage AthleteResult
+    // Contains a single Athlete's results
+    *****************************************************************/
     class AthleteResult
     {
         public string Name { get; set; }
