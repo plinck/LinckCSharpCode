@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Arrays
 {
@@ -12,7 +8,7 @@ namespace Arrays
         {
             int[] myNumbers = new int[5];
             int[] myNewNumbers = new int[] { 4, 8, 12, 16, 55, 67, 88, 98 };  // Sets array size automatically
-            string[] myString = new string[] { "Paul", "Lynn", "Spencer", "Andrew" }; 
+            string[] myString = new string[] { "Paul", "Lynn", "Spencer", "Andrew", "Juliet" }; 
 
             string myBiggie = "You cant always get what you want";
 
